@@ -27,7 +27,7 @@ how to add all files to heroku:
     git push heroku master
     --pushes all the files that are tracked by git on your end
     
-debuggin heroku:
+debugging heroku:
 
     heroku logs
     --heroku doesn't show you errors from url if something went wrong
