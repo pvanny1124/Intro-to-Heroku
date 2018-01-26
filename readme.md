@@ -12,19 +12,23 @@ that the Heroku server knows where to begin running the application.
 
 URL for this app: https://lit-cove-48849.herokuapp.com/
 
-#logging in to heroku
+logging in to heroku:
+
     heroku login
     --asks you for credentials (username/password)
     
-#create a heroku application
+create a heroku application:
+
     heroku create
     --adds remote for you. check it out with git remote -v
     
-#how to add all files to heroku
+how to add all files to heroku:
+
     git push heroku master
     --pushes all the files that are tracked by git on your end
     
-#debuggin heroku
+debuggin heroku:
+
     heroku logs
     --heroku doesn't show you errors from url if something went wrong
     --heroku logs lets you see the errors that go on through the terminal
