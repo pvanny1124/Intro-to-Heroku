@@ -33,3 +33,6 @@ debugging heroku:
     --heroku doesn't show you errors from url if something went wrong
     --heroku logs lets you see the errors that go on through the terminal
     
+changing heroku environment variables:
+
+    heroku config:set <KEY>=<secretkey>
